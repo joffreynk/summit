@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+section {
+	padding: 200px 5%;
+
+}
+
+.hsection {
+	background: url('./images/main_big.png');
+}
+
+.program img {
+	width: 40px;
+	height: 40px;
+}
