@@ -310,9 +310,43 @@ footer img {
 }
 
 .about-h {
-  font-size: 48px;
-  font-weight: 800;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: Verdana, sans-serif;
   text-transform: uppercase;
+  color: brown;
+}
+
+.activity {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.past-activies {
+  background-color: #fff;
+}
+
+.a2020 {
+  background: url('./images/participant00.jpg'), rgb(140, 173,255);
+  background-blend-mode:soft-light;
+  width: 50%;
+  text-align: center;
+  vertical-align: center;
+  padding-top: 15%;
+  width: 400px;
+  height: 300px;
+}
+
+.a2021 {
+  background: url('./images/participant00.jpg'), rgb(140, 173,255);
+  background-blend-mode:soft-light;
+  width: 50%;
+  text-align: center;
+  vertical-align: center;
+  padding-top: 15%;
+  width: 400px;
+  height: 300px;
 }
 
 @media screen and (min-width: 768px) {
@@ -384,5 +418,9 @@ footer img {
 
   .about-hsection > * {
     text-align: center;
+  }
+
+  .activity {
+    flex-direction: row;
   }
 }
