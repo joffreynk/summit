@@ -5,6 +5,7 @@
   padding: 0;
   font-family: "Nanum Gothic";
   box-sizing: border-box;
+  word-wrap: break-word;
 }
 
 body {
@@ -308,6 +309,12 @@ footer img {
   font-weight: 600;
 }
 
+.about-h {
+  font-size: 48px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
 @media screen and (min-width: 768px) {
   ul {
     margin-top: 70px;
@@ -373,5 +380,9 @@ footer img {
     flex-direction: row;
     justify-content: flex-end;
     gap: 12px;
+  }
+
+  .about-hsection > * {
+    text-align: center;
   }
 }
