@@ -246,7 +246,7 @@ h2 {
 
 footer {
   display: flex;
-  padding: 10% 10%;
+  margin: 30px 10%;
   gap: 60px;
 }
 
@@ -284,11 +284,16 @@ footer img {
     right: 0;
     left: 0;
   }
+
+  footer .logo {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .social-media a {
   color: #fff;
-  font-size: 15px;
+  font-size: 8px;
   padding: 8px 0;
 }
 .links li,
@@ -325,28 +330,49 @@ footer img {
 
 .past-activies {
   background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.a2020 {
-  background: url('./images/participant00.jpg'), rgb(140, 173,255);
-  background-blend-mode:soft-light;
-  width: 50%;
-  text-align: center;
-  vertical-align: center;
-  padding-top: 15%;
-  width: 400px;
-  height: 300px;
+.year-img img {
+  width: 100%;
+  opacity: 0.6;
 }
 
-.a2021 {
-  background: url('./images/participant00.jpg'), rgb(140, 173,255);
-  background-blend-mode:soft-light;
-  width: 50%;
+.year {
+  width: 100%;
+  position: relative;
+}
+
+.past-activies h3 {
+  color: #39526b;
+  font-size: 20px;
+  line-height: 24px;
   text-align: center;
-  vertical-align: center;
-  padding-top: 15%;
-  width: 400px;
-  height: 300px;
+}
+
+.past-activies .line {
+  margin-bottom: 70px;
+}
+.event-year {
+  position: absolute;
+  top: 25%;
+  text-align: center;
+  left: 25%;
+}
+
+.event-year h4 {
+  color: #39526b;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.contact,
+.contact a {
+  font-size: 13px;
+  color: #222a32;
+  line-height: 24px;
 }
 
 @media screen and (min-width: 768px) {
