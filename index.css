@@ -212,7 +212,8 @@ a:hover {
 }
 
 .full-link {
-  color: rgba(189, 189, 189);
+  color: #fff;
+  font-family: 'Lato', sans-serif;
   font-size: 20px;
   text-decoration: none;
 }
