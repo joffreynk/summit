@@ -25,6 +25,12 @@ ul {
   list-style: none;
 }
 
+li {
+  font-size: 12px;
+  line-height: 24px;
+  gap: 20px;
+}
+
 ul,
 .program li,
 .speakers li,
@@ -32,12 +38,6 @@ ul,
 .speakers {
   display: flex;
   width: 100%;
-}
-
-li {
-  font-size: 12px;
-  line-height: 24px;
-  gap: 20px;
 }
 
 header ul {
@@ -127,7 +127,9 @@ a:hover {
 }
 
 .date {
-  font: bold 18px Verdana;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Verdana, sans-serif;
   width: 90%;
   display: inline-block;
   text-align: center;
@@ -158,7 +160,7 @@ a:hover {
 
 .event-description,
 .location {
-  margin: 17px 12px 0px;
+  margin: 17px 12px 0;
   width: 80%;
   padding: 16px 8px;
   line-height: 150%;
@@ -433,7 +435,9 @@ a:hover {
   }
 
   .date {
-    font: bold 36px Verdana;
+    font-family: verdana;
+    font-size: 36px;
+    font-weight: bold;
     text-align: left;
   }
 
