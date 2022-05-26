@@ -59,7 +59,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - This project is my own work. no other place you can find it except where I have used it. I build it on internation of practicing HTML,CSS and JAVASCRIPT,
-- the design I  used was build by  [creatiive Commmon](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+- the design I  used was built by  [creatiive Commmon](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 
 ## 📝 License
