@@ -435,7 +435,7 @@ a:hover {
   }
 
   .date {
-    font-family: verdana;
+    font-family: verdana, sans-serif;
     font-size: 36px;
     font-weight: bold;
     text-align: left;
