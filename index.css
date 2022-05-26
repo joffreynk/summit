@@ -266,31 +266,6 @@ footer img {
   margin-top: 12px;
 }
 
-@media screen and (max-width: 767px) {
-  .hamburger {
-    padding: 6%;
-    position: fixed;
-    z-index: 2;
-  }
-
-  .showlinks {
-    flex-direction: column;
-    position: fixed;
-    padding-left: 6%;
-    padding-top: 20%;
-    background-color: rgb(32, 110, 189);
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-  }
-
-  footer .logo {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
 .social-media a {
   color: #fff;
   font-size: 8px;
@@ -298,7 +273,6 @@ footer img {
 }
 .links li,
 .logo {
-  margin: 8px 0;
   padding: 7px 0;
 }
 
@@ -373,6 +347,60 @@ footer img {
   font-size: 13px;
   color: #222a32;
   line-height: 24px;
+}
+
+@media screen and (max-width: 767px) {
+  .hamburger {
+    display: flex;
+    justify-content: space-between;
+    top: 6%;
+    position: fixed;
+    z-index: 2;
+  }
+  .hamburger img {
+    width: 40px;
+    cursor: pointer;
+  }
+  #hamburger {
+    margin-left: 30px;
+  }
+
+  #close {
+    width: 25px;
+    position: fixed;
+    right: 30px;
+  }
+
+  .showlinks {
+    flex-direction: column;
+    position: fixed;
+    padding-left: 6%;
+    padding-top: 20%;
+    background-color: rgb(32, 110, 189);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+  .links li:hover {
+    border: 2px solid #fff;
+    background-color: cadetblue;
+    text-decoration: none;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  footer .logo {
+    display: block;
+  }
+
+  .close {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {

@@ -23,19 +23,20 @@
       <div class="menu">
         <div class="icon">
           <div class="hamburger">
-            <img src="./images/hamburger.png" alt="hamburger" />
+            <img src="./images/hamburger.png" id="hamburger" alt="hamburger" />
+            <img src="./images/close.png" alt="close" id="close">
           </div>
           <div class="logo">
             <a href="./"><img src="./images/logo.png" alt="logo" /></a>
           </div>
         </div>
-        <ul class="links ">
-          <li><a href="./about.html">About</a></li>
-          <li><a href="./">Program</a></li>
-          <li><a href="#">Join</a></li>
-          <li><a href="#">Sponsor</a></li>
-          <li><a href="#">News</a></li>
-          <li class="event-border"><a href="#">Seminar</a></li>
+        <ul class="links showlinks" id="links">
+          <li class="link-item"><a href="./about.html">About</a></li>
+          <li class="link-item"><a href="./">Program</a></li>
+          <li class="link-item"><a href="#">Join</a></li>
+          <li class="link-item"><a href="#">Sponsor</a></li>
+          <li class="link-item"><a href="#">News</a></li>
+          <li class="link-item" class="event-border"><a href="./">Seminar</a></li>
         </ul>
       </div>
     </header>
@@ -63,7 +64,7 @@
         <ul class="program">
           <li>
             <div class="program-img">
-              <img src="./images/conference.png" alt="" />
+              <img src="./images/conference.png" alt="program" />
             </div>
             <p class="program-title">confernce</p>
             <p class="p-description">
@@ -72,7 +73,7 @@
           </li>
           <li>
             <div class="program-img">
-              <img src="./images/exhibition.png" alt="" />
+              <img src="./images/exhibition.png" alt="program" />
             </div>
             <p class="program-title">Exhibition</p>
             <p class="p-description">
@@ -81,7 +82,7 @@
           </li>
           <li>
             <div class="program-img">
-              <img src="./images/presentation.png" alt="" />
+              <img src="./images/presentation.png" alt="program" />
             </div>
             <p class="program-title">Discussion</p>
             <p class="p-description">
@@ -90,7 +91,7 @@
           </li>
           <li>
             <div class="program-img">
-              <img src="./images/chat.png" alt="" />
+              <img src="./images/chat.png" alt="program" />
             </div>
             <p class="program-title">FAQ</p>
             <p class="p-description">
@@ -99,7 +100,7 @@
           </li>
           <li>
             <div class="program-img">
-              <img src="./images/network.png" alt="" />
+              <img src="./images/network.png" alt="program" />
             </div>
             <p class="program-title">Networking</p>
             <p class="p-description">
@@ -109,73 +110,13 @@
         </ul>
         <p class="full-program">
           <a class="full-link" href="#">View full program</a>
-          <img class="greater" src="./images/greater2.png" alt="" />
+          <img class="greater" src="./images/greater2.png" alt="greater symbol" />
         </p>
       </section>
       <section class="speakers-section">
         <h2>Featured speaker</h2>
         <div class="line"></div>
-        <ul class="speakers">
-          <li class="speaker">
-            <div class="speaker-img">
-              <img src="./images/spekerprofil.jpg" alt="speaker-img" />
-            </div>
-            <div class="speaker-details">
-              <p class="speaker-name">Joh abdoul</p>
-              <p class="speaker-job">
-                teacher at summit international institute
-              </p>
-              <p class="speaker-achievement">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
-                dolorum vero minus molestiae illum amet sunt?
-              </p>
-            </div>
-          </li>
-          <li class="speaker">
-            <div class="speaker-img">
-              <img src="./images/spekerprofil.jpg" alt="speaker-img" />
-            </div>
-            <div class="speaker-details">
-              <p class="speaker-name">Joh abdoul</p>
-              <p class="speaker-job">
-                teacher at summit international institute
-              </p>
-              <p class="speaker-achievement">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
-                dolorum vero minus molestiae illum amet sunt?
-              </p>
-            </div>
-          </li>
-          <li class="speaker">
-            <div class="speaker-img">
-              <img src="./images/spekerprofil.jpg" alt="speaker-img" />
-            </div>
-            <div class="speaker-details">
-              <p class="speaker-name">Joh abdoul</p>
-              <p class="speaker-job">
-                teacher at summit international institute
-              </p>
-              <p class="speaker-achievement">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
-                dolorum vero minus molestiae illum amet sunt?
-              </p>
-            </div>
-          </li>
-          <li class="speaker">
-            <div class="speaker-img">
-              <img src="./images/spekerprofil.jpg" alt="speaker-img" />
-            </div>
-            <div class="speaker-details">
-              <p class="speaker-name">Joh abdoul</p>
-              <p class="speaker-job">
-                teacher at summit international institute
-              </p>
-              <p class="speaker-achievement">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
-                dolorum vero minus molestiae illum amet sunt?
-              </p>
-            </div>
-          </li>
+        <ul class="speakers" id="speakers">
         </ul>
       </section>
       <section class="partners">
@@ -197,17 +138,17 @@
           </li>
           <li>
             <a href="#"
-              ><img class="partner-img" src="./images/newtonacadem.png" alt=""
+              ><img class="partner-img" src="./images/newtonacadem.png" alt="partner"
             /></a>
           </li>
           <li>
             <a href="#"
-              ><img class="partner-img" src="./images/mit.png" alt=""
+              ><img class="partner-img" src="./images/mit.png" alt="partner"
             /></a>
           </li>
           <li>
             <a href="#"
-              ><img class="partner-img" src="./images/mandela.png" alt=""
+              ><img class="partner-img" src="./images/mandela.png" alt="partner"
             /></a>
           </li>
         </ul>

@@ -9,35 +9,34 @@
   </head>
   <body>
     <header>
-      <div class="header">
-        <ul class="social-media">
-          <li>
-            <a href="#"><img src="./images/facebook.jpg" alt="facebook" /></a>
-          </li>
-          <li>
-            <a href="#"><img src="./images/twitter.png" alt="twitter" /></a>
-          </li>
-          <li><a href="#">English</a></li>
-          <li><a href="#">my page</a></li>
-          <li><a href="#">Logout</a></li>
-        </ul>
-      </div>
-      <div class="menu" >
+      <ul class="social-media">
+        <li class="fb">
+          <a href="#"><img src="./images/facebook.jpg" alt="facebook" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./images/twitter.png" alt="twitter" /></a>
+        </li>
+        <li><a href="#">English</a></li>
+        <li><a href="#">my page</a></li>
+        <li><a href="#">Logout</a></li>
+      </ul>
+      <div class="menu">
         <div class="icon">
           <div class="hamburger">
-            <img src="./images/hamburger.png" alt="hamburger" />
+            <img src="./images/hamburger.png" id="hamburger" alt="hamburger" />
+            <img src="./images/close.png" alt="close" id="close">
           </div>
           <div class="logo">
             <a href="./"><img src="./images/logo.png" alt="logo" /></a>
           </div>
         </div>
-        <ul class="links">
-          <li><a href="./about.html">About</a></li>
-          <li><a href="./">Program</a></li>
-          <li><a href="#">Join</a></li>
-          <li><a href="#">Sponsor</a></li>
-          <li><a href="#">News</a></li>
-          <li class="event-border"><a href="#">Seminar</a></li>
+        <ul class="links showlinks" id="links">
+          <li class="link-item"><a href="./about.html">About</a></li>
+          <li class="link-item"><a href="./">Program</a></li>
+          <li class="link-item"><a href="#">Join</a></li>
+          <li class="link-item"><a href="#">Sponsor</a></li>
+          <li class="link-item"><a href="#">News</a></li>
+          <li class="link-item" class="event-border"><a href="./">Seminar</a></li>
         </ul>
       </div>
     </header>
@@ -99,6 +98,6 @@
           </p>
         </div>
       </footer>
-   
+      <script src="./index.js"></script>
   </body>
 </html>
